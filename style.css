@@ -1,0 +1,125 @@
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+
+  body {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  header {
+    background-color: rgb(148, 165, 201);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: rgb(43, 226, 89);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .navigation a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-left: 15px;
+  }
+  
+  .navigation a:hover {
+    color: white;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  
+  .main h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: 600;
+    
+  }
+  
+  /* .button {
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+  } */
+  
+  .button:hover {
+    color: rgb(148, 165, 201);
+    transform: scale(1.1);
+  }
+  
+  .social a {
+    font-size: 2.5em;
+    padding: 0 10px;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    font-size: 3.2em;
+    font-weight: 800;
+    background-color: rgb(148, 165, 201);
+    border-radius: 50px 0 50px 0;
+    margin: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .klo{
+    background-image: url(/nnn.jpg);
+    }
+    .social {
+        display: flex;
+        flex-direction: column; /* Set the direction to column */
+         /* Align the icons horizontally in the center */
+      }
+      
+      .social a {
+        margin: 15px 0; /* Add some space between the icons */
+      }
+      
